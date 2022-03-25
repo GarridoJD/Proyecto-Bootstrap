@@ -36,7 +36,10 @@
 // frase = texto.concat(numero1);
 // document.write(frase);
 
-let numero1 = 0, numero2 = 0;
+let numero1, numero2;
+
+numero1 = parseInt(numero1);
+numero2 = parseInt(numero2);
 
 let opcion = prompt("Indica el numero para la opcion a realizar: \n"
     + "1 - Suma.\n"
@@ -49,8 +52,8 @@ if(opcion >= 1 && opcion <= 5){
         numero1 = prompt("Digita un numero");
         numero2 = prompt("Digita otro numero");
         if(numero1 >= 0 && numero2 >= 0){
-            numero1+=numero2;
-            alert(`La suma es: ${numero1}`); 
+            numero1 += numero2;
+            alert(`La suma es: ${numero1}`);
         }else{
             alert("ERROR. Debe digitar datos numericos y que sean mayor que 0.")
         }
