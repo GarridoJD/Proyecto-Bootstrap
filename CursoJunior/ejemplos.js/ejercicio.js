@@ -24,7 +24,7 @@ if(dinero >= 0){
     if(opcion == 1){
         if(dinero > 6000){
             alert("!Genial¡, acabas de comprar el helado de chocolate.");
-            vuelto = dinero - 6000;
+            let vuelto = dinero - 6000;
             alert(`Aqui esta tu rembolso ${vuelto}$, vuelva pronto :)`);
         }else if(dinero == 6000){
             alert("No hay rembolso.");
@@ -34,7 +34,7 @@ if(dinero >= 0){
     }else if(opcion == 2){
         if(dinero > 12000){
             alert("!Genial¡, acabas de comprar el helado de vainilla.");
-            vuelto = dinero - 12000;
+            let vuelto = dinero - 12000;
             alert(`Aqui esta tu rembolso ${vuelto}$, vuelva pronto :)`);
         }else if(dinero == 12000){
             alert("No hay rembolso.");
@@ -44,7 +44,7 @@ if(dinero >= 0){
     }else if(opcion == 3){
         if(dinero > 10000){
             alert("!Genial¡, acabas de comprar el helado de arequipe.");
-            vuelto = dinero - 10000;
+            let vuelto = dinero - 10000;
             alert(`Aqui esta tu rembolso ${vuelto}$, vuelva pronto :)`);
         }else if(dinero == 10000){
             alert("No hay rembolso.");
@@ -54,7 +54,7 @@ if(dinero >= 0){
     }else if(opcion == 4){
         if(dinero > 7500){
             alert("!Genial¡, acabas de comprar el helado de fresa.");
-            vuelto = dinero - 7500;
+            let vuelto = dinero - 7500;
             alert(`Aqui esta tu rembolso ${vuelto}$, vuelva pronto :)`);
         }else if(dinero == 7500){
             alert("No hay rembolso.");  
@@ -64,7 +64,7 @@ if(dinero >= 0){
     }else if(opcion == 5){
         if(dinero > 15000){
             alert("!Genial¡, acabas de comprar el helado de galleta.");
-            vuelto = dinero - 15000;
+            let vuelto = dinero - 15000;
             alert(`Aqui esta tu rembolso ${vuelto}$.`);
 
             let helado = prompt("¿Desea comprar otro helado?.\nDigite 'si' o 'no':");
@@ -76,6 +76,7 @@ if(dinero >= 0){
                 alert("Gracias, vuelva pronto :)");
             }
         }else if(dinero == 15000){
+            alert("!Genial¡, acabas de comprar el helado de galleta.");
             alert("No hay rembolso.");
         }else{
             alert("No tiene el dinero suficiente para comprar el helado.")
