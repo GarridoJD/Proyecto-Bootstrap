@@ -1,0 +1,23 @@
+
+.example{
+    position: relative;
+    top: 80px;
+    margin-left: 80px;
+    background-color: lightcoral;
+    height: 80px;
+    width: 80px;
+    border-radius: 0% 100% 0% 0%;
+}
+
+.example1{
+    background-color: lightskyblue;
+    height: 80px;
+    width: 80px;
+    border-radius: 100% 0% 0% 0%;
+}
+.example2{
+    background-color: rgb(255, 238, 87);
+    height: 80px;
+    width: 80px;
+    border-radius: 0% 0% 0% 100%;
+}
